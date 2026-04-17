@@ -96,41 +96,40 @@ Este proyecto convierte datos complejos en un panel de control visual y accionab
 
 
 
-### 4. Proyecto 4: Análisis Inverso y Control de Gestión de Costos Logísticos
+## 4. Proyecto 4: Análisis Inverso y Control de Gestión de Costos Logísticos
 
 ### Título y Descripción
-*** Análisis de Datos Inverso: Reconstrucción de Flujos y Control de Presupuesto Logístico.
+** Análisis de Datos Inverso: Reconstrucción de Flujos y Control de Presupuesto Logístico.**
 Este proyecto utiliza una metodología de ingeniería inversa para validar la integridad de reportes de gestión. A partir de un dashboard final de costos, se reconstruyó un conjunto de datos transaccionales "crudos" con el fin de simular procesos de limpieza y transformación, asegurando la trazabilidad absoluta entre el dato origen y los indicadores de cumplimiento presupuestario.
 
 ### Problema y Objetivos
 
-*** Problema de Negocio: La falta de visibilidad sobre el origen de los datos en reportes consolidados puede ocultar ineficiencias o errores de cálculo en los promedios de gasto.
+* ** Problema de Negocio:** La falta de visibilidad sobre el origen de los datos en reportes consolidados puede ocultar ineficiencias o errores de cálculo en los promedios de gasto.
 
 ### Objetivos del Análisis:
+Realizar un Análisis Inverso para generar un set de datos transaccionales coherente con los resultados finales de la Gerencia de Logística.
 
-*** Realizar un Análisis Inverso para generar un set de datos transaccionales coherente con los resultados finales de la Gerencia de Logística.
-
-*** Monitorear el cumplimiento del Límite de Control Mensual (< $25M) mediante visualizaciones dinámicas.
+Monitorear el cumplimiento del Límite de Control Mensual (< $25M) mediante visualizaciones dinámicas.
 
 ### Conjunto de Datos
 
-*** Datos Utilizados: Dataset transaccional reconstruido (simulado) con formatos de fecha mixtos y ruido digital para ejercicios de normalización.
+* ** Datos Utilizados:** Dataset transaccional reconstruido (simulado) con formatos de fecha mixtos y ruido digital para ejercicios de normalización.
 
 
-*** Variables Clave: Mes-Año, Categoría de Gasto (Sueldos, Fletes, etc.), Monto (Miles de Pesos), Promedio Trimestral.
+* ** Variables Clave:** Mes-Año, Categoría de Gasto (Sueldos, Fletes, etc.), Monto (Miles de Pesos), Promedio Trimestral.
 
 ### Metodología y Herramientas
 
-*** Pasos Principales: Ingeniería inversa de datos, Limpieza y Estandarización de registros, cálculo de promedios móviles y creación de Gráficos de Control de Procesos.
+* ** Pasos Principales:** Ingeniería inversa de datos, Limpieza y Estandarización de registros, cálculo de promedios móviles y creación de Gráficos de Control de Procesos.
 
 
-*** Herramientas Usadas: Excel (Fórmulas Lógicas, Validación de Datos, Gráficos de Líneas con Límites de Control y Formato Condicional).
+* ** Herramientas Usadas:** Excel (Fórmulas Lógicas, Validación de Datos, Gráficos de Líneas con Límites de Control y Formato Condicional).
 
 ### Resultados y Conclusiones (Insights)
 
-*** Hallazgo: El costo total de la Gerencia para el año 2013 ascendió a $285.213 (miles de pesos), con un promedio mensual de $23.768. Se identificó que la categoría Sueldos domina el presupuesto con un 53% del gasto total.
+* ** Hallazgo:** El costo total de la Gerencia para el año 2013 ascendió a $285.213 (miles de pesos), con un promedio mensual de $23.768. Se identificó que la categoría Sueldos domina el presupuesto con un 53% del gasto total.
 
 
-*** Implicación de Negocio: El gasto se mantuvo bajo control durante el 90% del año, superando el límite de $25M únicamente en julio debido a peaks en infraestructura y fletes. Se recomienda mantener la vigilancia sobre los costos fijos de sueldos y la variabilidad trimestral en servicios de seguridad.
+* ** Implicación de Negocio:** El gasto se mantuvo bajo control durante el 90% del año, superando el límite de $25M únicamente en julio debido a peaks en infraestructura y fletes. Se recomienda mantener la vigilancia sobre los costos fijos de sueldos y la variabilidad trimestral en servicios de seguridad.
 
 
